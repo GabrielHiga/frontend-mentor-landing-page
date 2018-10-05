@@ -1,0 +1,202 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: Raleway, OpenSans;
+}
+
+.container{
+	max-width: 1225px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.bg-intro{
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: -99;
+	height: 100vh;
+}
+.illu-main{
+	position: absolute;
+	top: 200px;
+	right: 0;
+}
+.topo{
+	display: flex;
+	padding-top: 65px;
+	justify-content: space-between;
+}
+
+.logo{
+	max-width: 166px;
+	cursor: pointer;
+}
+
+.sign{
+	color: #fff;
+	display: inline;
+}
+.sign .signin{
+	margin-right: 31px;
+}
+
+.active{
+	padding: 14px 32px;
+	background-color: #06d79d;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.chamada{
+	font-size: 25px;
+	font-weight: 700;
+	margin-top: 175px;
+	padding-bottom: 222px;
+}
+.chamada h1{
+	max-width: 506px;
+}
+
+.chamada p{
+	color: #9a9a9a;
+	font-size: 12pt;
+	max-width: 506px;
+	margin-top: 30px;
+	line-height: 25px;
+}
+
+.chamada button{
+	color: #fff;
+	background-color: #06d79d;
+	border: none;
+	padding: 27px 91px;
+	border-radius: 5px;
+	font-size: 16pt;
+	line-height:  0px;
+	margin-top: 42px;
+	cursor: pointer;
+/*	-webkit-box-shadow: 7px 7px 35px -4px rgba(0,0,0,0.33);
+	-moz-box-shadow: 7px 7px 35px -4px rgba(0,0,0,0.33);
+	box-shadow: 7px 7px 35px -4px rgba(0,0,0,0.33);*/
+}
+
+
+.productive{
+	text-align: center;
+}
+
+.productive h2{
+	padding-top: 222px;
+	font-size: 24pt;
+	color: #000029;
+}
+
+.productive p{
+	max-width: 450px;
+	margin: 0 auto;
+	font-size: 12pt;
+	color: #9a9a9a;
+	margin-top: 34px;
+}
+
+
+.icones{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 88px;
+}
+
+.icon1 img{
+	width: auto;
+	height: 132px;
+}
+
+.icon3 img{
+	width: auto;
+	height: 132px;
+}
+
+.icones .icon-description{
+	color: #343434;
+	max-width: 230px;
+	font-size: 20px;
+}
+
+
+ /* CONECT */
+ .conect{
+ 	background-color: red;
+ 	display: flex;
+ 	justify-content: space-between;
+ }
+
+ .text-conect h2{
+ 	color: #1e1941;
+ 	max-width: 409px;
+ }
+
+ .text-conect p{
+ 	color: #9a9a9a;
+ 	font-size: 12pt;
+ 	max-width: 440px;
+ 	margin-top: 50px;
+ }
+
+ .box-conect{
+ 	background-color: green;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
