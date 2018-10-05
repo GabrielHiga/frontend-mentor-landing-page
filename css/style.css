@@ -18,7 +18,7 @@ body{
 	top: 0;
 	right: 0;
 	z-index: -99;
-	height: 100vh;
+	height: 95vh;
 }
 .illu-main{
 	position: absolute;
@@ -69,7 +69,7 @@ body{
 	line-height: 25px;
 }
 
-.chamada button{
+.get-started{
 	color: #fff;
 	background-color: #06d79d;
 	border: none;
@@ -101,6 +101,7 @@ body{
 	font-size: 12pt;
 	color: #9a9a9a;
 	margin-top: 34px;
+	line-height: 25px;
 }
 
 
@@ -129,14 +130,16 @@ body{
 
  /* CONECT */
  .conect{
- 	background-color: red;
  	display: flex;
  	justify-content: space-between;
+ 	margin-top: 305px; 
  }
 
  .text-conect h2{
  	color: #1e1941;
  	max-width: 409px;
+ 	font-size: 25pt;
+ 	padding-top: 246px;
  }
 
  .text-conect p{
@@ -147,35 +150,225 @@ body{
  }
 
  .box-conect{
- 	background-color: green;
+ 	display: flex;
+ 	justify-content: space-between;
+ }
+.line1{
+	width: 240px;
+	margin-left: 15px;
+}
+.line2{
+	width: 240px;
+	margin-left: 15px;
+	margin-top: -60px;
+}
+.line3{
+	width: 240px;
+	margin-left: 15px;
+}
+
+.line-separed{
+	width: 100px;
+	height: 10px;
+	background-color: red;
+	position: relative;
+}
+.box1{
+	background-color: #fff;
+	width: 240px;
+	height: 321px;
+	border-radius: 5px;
+	text-align: center;
+	-webkit-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.05);
+	-moz-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.05);
+	box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.05);
+}
+
+.box1 img{
+	padding: 40px 0px;
+	margin: 0 auto;
+	position: center;
+	display: block;
+}
+
+.box1 h3{
+	margin: 20px 0px;
+	font-size: 16pt;
+}
+
+.box1 p{
+	max-width: 172px;
+	margin: 0 auto;
+}
+
+
+
+
+.box2{
+	background-color: #fff;
+	width: 240px;
+	height: 321px;
+	margin-top: 15px;
+	border-radius: 5px;
+	text-align: center;
+	-webkit-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.05);
+	-moz-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.05);
+	box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.05);
+}
+
+.box2 img{
+	padding: 40px 0px;
+	margin: 0 auto;
+	position: center;
+	display: block;
+}
+
+.box2 h3{
+	margin: 20px 0px;
+	font-size: 16pt;
+}
+
+.box2 p{
+	max-width: 172px;
+	margin: 0 auto;
+}
+
+
+
+/* START SECTION */
+
+.start{
+text-align: center;
+margin-top: 220px;
+}
+
+.start h2{
+	font-size: 24pt;
+	color: #000028;
+}
+
+.start p{
+	color: #9a9a9a;
+	padding-top: 34px;
+	max-width: 635px;
+	display: block;
+	margin: 0 auto; 
+}
+
+.start button{
+	margin-bottom: 124px;
+}
+
+
+
+
+/* FOOTER */
+footer{
+	background-color: #07043b;
+}
+
+.footer-fylo{
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	padding: 100px 0px 175px 0px;
+}
+
+.info input {
+	margin-top: 26px;
+	border: none;
+	width: 304px;
+	height: 45px;
+	border-radius: 5px;
+	font-size: 14pt;
+	padding-left: 15px;
+	color: #929292;
+}
+
+.receive {
+	max-width: 475px;
+	margin-top: 43px;
+	line-height: 24px;
+	font-size: 15pt;
+}
+
+.info button {
+	background-color: #06d79d;
+	height: 45px;
+	width: 200px;
+	border-radius: 5px;
+	border: none; 
+	color: #fff;
+	cursor: pointer;
+	margin-left: 5px;
+}
+
+ .text-button {
+ 	font-size: 14pt;
  }
 
+.phone{
+	margin-top: 40px; 
+}
+
+.email{
+	margin-top: 25px;
+}
+
+.fylo {
+	margin-top: 105px;
+}
+
+.fylo h3 {
+	margin-bottom: 10px;
+	font-size: 16pt;
+}
+
+.fylo ul {
+	list-style-type: none;
+}
+
+.fylo ul li {
+	margin: 20px 0px;
+}
 
 
 
+.company {
+	margin-top: 105px;
+}
+
+.company h3 {
+	margin-bottom: 10px;
+	font-size: 16pt;
+}
+
+.company ul {
+	list-style-type: none;
+}
+
+.company ul li {
+	margin: 20px 0px;
+}
 
 
 
+.support {
+	margin-top: 105px;
+}
 
+.support h3 {
+	margin-bottom: 10px;
+	font-size: 16pt;
+}
 
+.support ul {
+	list-style-type: none;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.support ul li {
+	margin: 20px 0px;
+}
 
 
 
