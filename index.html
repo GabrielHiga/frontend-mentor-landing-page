@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="style-guide.md">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
+
   <title>Frontend Mentor | Landing page with detailed integrations section</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -15,6 +16,9 @@
   </style>
 </head>
 <body>
+  <div class="loader hidden">
+    <img src="images/loader.gif" alt="loader">
+  </div>
   <img class="bg-intro" src="images/bg-intro-desktop.svg" alt="">
   <div class="container">
       <div class="topo">
@@ -81,7 +85,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipising elit. Quisque id varius eros, vel pharetra est.</p>
                 </div>
                 <div class="box2">
-                    <img src="images/logo-asana.png" width="136px" height="auto" alt="Asana">
+                    <img src="images/logo-asana.png" width="100px" height="auto" alt="Asana">
                     <span class="line-separed"></span>
                     <h3><b>Asana</b></h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipising elit. Quisque id varius eros, vel pharetra est.</p>
@@ -96,7 +100,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipising elit. Quisque id varius eros, vel pharetra est.</p>
                 </div>
                 <div class="box2">
-                    <img src="images/logo-salesforce.png" width="136px" height="auto" alt="Sales">
+                    <img src="images/logo-salesforce.png" width="100px" height="auto" alt="Salesforce">
                     <span class="line-separed"></span>
                     <h3><b>Salesforce</b></h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipising elit. Quisque id varius eros, vel pharetra est.</p>
@@ -173,6 +177,23 @@
           </div>
       </div>
   </footer>
+
+    <script>
+        $(document).ready(function () {
+        $("body").niceScroll();
+    }); 
+  </script>
+
+  <script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function() {
+        const loader = document.querySelector(".loader");
+        loader.className += " hidden";
+    });
+  </script>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="http://areaaperta.com/nicescroll/js/jquery.nicescroll.min.js"></script>
+
 
 </body>
 </html>
